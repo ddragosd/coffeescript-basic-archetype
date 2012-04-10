@@ -1,0 +1,19 @@
+A Maven archetype to generate quickly a CoffeeScript project with unit tests.
+
+Usage:
+mvn clean install
+
+Then change the current directory to the directory where you want to create the project, and type:
+mvn archetype:generate -DarchetypeCatalog=local
+
+You should see all your local archetypes listed, and the last entry should be similar to the next line:
+12: local -> coffeescript-basic-archetype (coffeescript-basic-archetype)
+
+Select the appropiate number for "coffeescript-basic-archetype" following the wizard to create a new project.
+
+When ready, go inside the newly created project and type:
+mvn clean install
+
+And that's it.
+
+
